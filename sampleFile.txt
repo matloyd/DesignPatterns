@@ -1,0 +1,30 @@
+Create the TitleLabel
+I add a TitleLabel object to every client and server window. Windows are not
+required to have a TitleLabel; I just like how it displays the name of the
+game. You may choose to not add TitleLabel objects to your client and server
+windows.
+The programs in this book use the same TitleLabel class that was created in
+one of the projects in the More Do-It-Yourself Java Games book. If you have
+that class, you may skip the rest of this setup and go to the first project:
+“Project 1 - Hit Counter.”
+To create the TitleLabel class, do the steps in this list.
+1. Create a new Java project named My Components. (Hint: to create a
+project in Eclipse, right click in the Project Explorer and choose
+New/Java Project. Hint: the minimum JRE required for the programs in
+this book is Java SE 1.8. When you create the project, select a JRE
+execution environment of Java SE 1.8 or higher.)
+2. Create a new package named
+___________._____________.mycomponents in the project. (Hint: to
+create a package in Eclipse, right click on the project and choose
+New/Package. Fill in the blanks with a unique package name. As
+explained in the first book, the package name should be unique to you,
+all lowercase, contain no spaces, and its components separated by
+periods. Most businesses use their company name. You could use your
+first and last name. I'll use annette.godtland throughout these examples.)
+3. In the mycomponents package, create a new class named TitleLabel,
+which uses JLabel as its superclass and has no method stub code. (Hint:
+to create a class in Eclipse, right-click on the package and choose
+New/Class. The only modifier needed is public. Hint: to easily enter the
+superclass, click Browse..., start typing the name of the superclass, then
+select the superclass from the list. Hint: when not specified as right-
+click, “click” means to click on the object using the left mouse button.)
